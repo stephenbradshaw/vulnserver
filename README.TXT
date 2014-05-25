@@ -1,6 +1,6 @@
 Vulnserver
 
-Check the authors blog at http://grey-corner.blogspot.com/ for more information and updates to this software.
+Check my blog at http://www.thegreycorner.com/ for more information and updates to this software.
 
 ======================================================================
 ABOUT THE SOFTWARE
