@@ -1,0 +1,16 @@
+This program should be compiled using the MinGW C compiler for Windows.
+
+First compile the dll file:
+
+gcc.exe -c essfunc.c
+gcc.exe -shared -o essfunc.dll -Wl,--out-implib=libessfunc.a -Wl,--image-base=0x62500000 essfunc.o
+
+Now compile the main program:
+
+gcc.exe vulnserver.c -o vulnserver.exe -lws2_32 ./libessfunc.a
+
+
+You can even compile this on a Linux machine using Wine and MinGW.  To do so, install Wine and the Windows MinGw and preface the commands above with:
+
+wine ~/.wine/drive_c/MinGW/bin/
+
