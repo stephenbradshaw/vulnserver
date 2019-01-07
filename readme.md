@@ -1,10 +1,8 @@
-Vulnserver
+# Vulnserver
 
 Check my blog at http://www.thegreycorner.com/ for more information and updates to this software.
 
-======================================================================
-ABOUT THE SOFTWARE
-======================================================================
+## About the software
 
 Vulnserver is a multithreaded Windows based TCP server that listens for client connections on port 9999 (by default) and allows the user to run a number of different commands that are vulnerable to various types of exploitable buffer overflows.
 
@@ -12,15 +10,13 @@ This software is intended mainly as a tool for learning how to find and exploit 
 
 Though it does make an attempt to mimic a (simple) legitimate server program this software has no functional use beyond that of acting as an exploit target, and this software should not generally be run by anyone who is not using it as a learning tool.
 
-======================================================================
-COMPILING THE SOFTWARE
-======================================================================
+
+## Compiling the software
+
 
 Binaries have been provided in this package, however if you wish to compile the software from the provided source files instructions are included in the file COMPILING.txt.
 
-======================================================================
-RUNNING THE SOFTWARE
-======================================================================
+## Running the software
 
 To run the software, simply execute vulnserver.exe.  The provided essfunc.dll library must be in a location where it can be found by vulnserver.exe - keeping both files in the same directory will usually work fine.
 
@@ -28,16 +24,23 @@ To start the server listening on the default port of 9999, simply run the execut
 
 Once the software is running, simply connect to it on port 9999 using a command line client like netcat.  Issue a HELP command (case sensitive) to see what functions are supported and go from there....
 
-Detailed instructions on how to exploit this software, or example exploit files have not been included with this package - this is to provide a challenge for those who want it and also a disincentive to cheat by peeking at the answer.  A series of artciles on how to discover and exploit the bugs in this program are planned in future however, to provide a pointer for those who just need a hint as well as to act as learning guides for those new to the subject of exploitation.
+Detailed instructions on how to exploit this software, or example exploit files have not been included with this package - this is to provide a challenge for those who want it and also a disincentive to cheat by peeking at the answer.  
 
-======================================================================
-LICENSE
-======================================================================
+If you're stuck, you can refer to the following to get an idea of how to proceed. Some of the following links provide full tutorials that teach the skills necessary to exploit and discover the vulnerabilities in Vulnserver, along with complete walkthroughs for some of the simpler vulnerabilities. In the case of the more difficult issues, some of the links might provide just a hint of how you can proceed...
+
+* [An Introduction to Fuzzing: Using SPIKE to find vulnerabilities in Vulnserver](http://www.thegreycorner.com/2010/12/introduction-to-fuzzing-using-spike-to.html)
+* [Exploit Writers Debugging Tutorial](http://www.thegreycorner.com/2011/03/exploit-writers-debugging-tutorial.html)
+* [Simple Stack Based Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/03/simple-stack-based-buffer-overflow.html)
+* [SEH Based Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/06/seh-based-buffer-overflow-tutorial-for.html)
+* [Egghunter based exploit for Vulnserver](http://www.thegreycorner.com/2011/10/egghunter-based-exploit-for-vulnserver.html)
+* [Restricted Character Set Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/12/restricted-character-set-buffer.html)
+* [Omlette Egghunter Shellcode](http://www.thegreycorner.com/2013/10/omlette-egghunter-shellcode.html)
+
+
+## License
 
 See LICENSE.txt.
 
-======================================================================
-WARNING!!!!
-======================================================================
+## Warning
 
 UNDER NO CIRCUMSTANCES SHOULD THIS SOFTWARE BE RUN ON ANY SYSTEM THAT IS CONNECTED TO AN UNTRUSTED NETWORK OR THAT PERFORMS CRITICAL FUNCTIONS.  THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR FROM USING THIS SOFTWARE IN THIS OR ANY OTHER MANNER.  USE AT YOUR OWN RISK.
