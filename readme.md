@@ -24,6 +24,8 @@ To start the server listening on the default port of 9999, simply run the execut
 
 Once the software is running, simply connect to it on port 9999 using a command line client like netcat.  Issue a HELP command (case sensitive) to see what functions are supported and go from there....
 
+## Exploiting Vulnserver
+
 Detailed instructions on how to exploit this software, or example exploit files have not been included with this package - this is to provide a challenge for those who want it and also a disincentive to cheat by peeking at the answer.  
 
 If you're stuck, you can refer to the following to get an idea of how to proceed. Some of the following links provide full tutorials that teach the skills necessary to exploit and discover the vulnerabilities in Vulnserver, along with complete walkthroughs for some of the simpler vulnerabilities. In the case of the more difficult issues, some of the links might provide just a hint of how you can proceed...
