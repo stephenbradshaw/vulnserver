@@ -30,13 +30,13 @@ Detailed instructions on how to exploit this software, or example exploit files 
 
 If you're stuck, you can refer to the following to get an idea of how to proceed. Some of the following links provide full tutorials that teach the skills necessary to exploit and discover the vulnerabilities in Vulnserver, along with complete walkthroughs for some of the simpler vulnerabilities. In the case of the more difficult issues, some of the links might provide just a hint of how you can proceed...
 
-* [An Introduction to Fuzzing: Using SPIKE to find vulnerabilities in Vulnserver](http://www.thegreycorner.com/2010/12/introduction-to-fuzzing-using-spike-to.html)
-* [Exploit Writers Debugging Tutorial](http://www.thegreycorner.com/2011/03/exploit-writers-debugging-tutorial.html)
-* [Simple Stack Based Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/03/simple-stack-based-buffer-overflow.html)
-* [SEH Based Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/06/seh-based-buffer-overflow-tutorial-for.html)
-* [Egghunter based exploit for Vulnserver](http://www.thegreycorner.com/2011/10/egghunter-based-exploit-for-vulnserver.html)
-* [Restricted Character Set Buffer Overflow Tutorial for Vulnserver](http://www.thegreycorner.com/2011/12/restricted-character-set-buffer.html)
-* [Omlette Egghunter Shellcode](http://www.thegreycorner.com/2013/10/omlette-egghunter-shellcode.html)
+* [An Introduction to Fuzzing: Using SPIKE to find vulnerabilities in Vulnserver](http://thegreycorner.com/2010/12/introduction-to-fuzzing-using-spike-to.html)
+* [Exploit Writers Debugging Tutorial](http://thegreycorner.com/2011/03/exploit-writers-debugging-tutorial.html)
+* [Simple Stack Based Buffer Overflow Tutorial for Vulnserver](http://thegreycorner.com/2011/03/simple-stack-based-buffer-overflow.html)
+* [SEH Based Buffer Overflow Tutorial for Vulnserver](http://thegreycorner.com/2011/06/seh-based-buffer-overflow-tutorial-for.html)
+* [Egghunter based exploit for Vulnserver](http://thegreycorner.com/2011/10/egghunter-based-exploit-for-vulnserver.html)
+* [Restricted Character Set Buffer Overflow Tutorial for Vulnserver](http://thegreycorner.com/2011/12/restricted-character-set-buffer.html)
+* [Omlette Egghunter Shellcode](http://thegreycorner.com/2013/10/omlette-egghunter-shellcode.html)
 
 
 ## License
